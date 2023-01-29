@@ -11,15 +11,20 @@
 <!-- Feather icon-->
 <link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>vendors/feather-icon.css">
 
+
+
+<link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>vendors/bootstrap.css">
 <!-- Plugins css start-->
 <link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>vendors/slick.css">
 <link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>vendors/slick-theme.css">
 <link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>vendors/scrollbar.css">
+
 <link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>vendors/animate.css">
 <!-- Plugins css Ends-->
 <!-- Bootstrap css-->
-<link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>vendors/bootstrap.css">
+
 <!-- App css-->
+<link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>vendors/datatables.css">
 <link rel="stylesheet" type="text/css" href="<?= ADMIN_CSS ?>style.css">
 <link id="color" rel="stylesheet" href="<?= ADMIN_CSS ?>color-1.css" media="screen">
 <!-- Responsive css-->

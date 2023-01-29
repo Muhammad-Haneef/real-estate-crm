@@ -5058,7 +5058,7 @@ body.modal-open .select2-container--open .select2-dropdown {
 }
 .card .card-header {
   background-color: #fff;
-  padding: 30px;
+  padding: 20px;
   border-bottom: 1px solid #ecf3fa;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -5117,7 +5117,7 @@ body.modal-open .select2-container--open .select2-dropdown {
   font-size: 13px;
 }
 .card .card-body {
-  padding: 30px;
+  padding: 20px;
   background-color: transparent;
 }
 .card .card-body p:last-child {
@@ -5130,7 +5130,7 @@ body.modal-open .select2-container--open .select2-dropdown {
 .card .card-footer {
   background-color: #fff;
   border-top: 1px solid #ecf3fa;
-  padding: 30px;
+  padding: 20px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
@@ -5195,7 +5195,7 @@ body.modal-open .select2-container--open .select2-dropdown {
 
 .custom-card {
   overflow: hidden;
-  padding: 30px;
+  padding: 20px;
 }
 .custom-card .card-header {
   padding: 0;
@@ -5549,7 +5549,7 @@ table.dataTable thead .sorting:before, table.dataTable thead .sorting:after, tab
 }
 table.dataTable input, table.dataTable select {
   border: 1px solid #efefef;
-  height: 37px;
+  /* height: 37px; */
 }
 
 .user-datatable tr td:first-child, .user-datatable tr th:first-child {
@@ -17223,7 +17223,7 @@ footer.blockquote-footer {
 }
 
 .error {
-  margin: 70px 0 100px;
+  /* margin: 70px 0 100px; */
   color: #000;
 }
 .error .error-title {

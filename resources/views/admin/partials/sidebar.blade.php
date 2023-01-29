@@ -35,12 +35,13 @@
               <h6 class="">System Settings</h6>
             </div>
           </li>
+          <li><a href="<?= ADMIN ?>departments">Departments</a></li>
           <li class="sidebar-list">
             <a class="sidebar-link sidebar-title" href="#">
               System Users
             </a>
             <ul class="sidebar-submenu">
-              <li><a href="<?= ADMIN ?>departments">Departments</a></li>
+              
               <li><a href="<?= ADMIN ?>designations">Designations</a></li>
             </ul>
           </li>

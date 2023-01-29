@@ -3,8 +3,8 @@
   <head>    
     @include('admin.partials.head')
   </head>
-  <body onload="startTime()">
-    <!-- loader starts-->
+  <body>
+    <!-- loader starts  onload="startTime()"-->
     <div class="loader-wrapper">
       <div class="loader-index"><span></span></div>
       <svg>
@@ -62,5 +62,6 @@
 
     @include('admin.partials.includejs')
 
+    @yield('js')
   </body>
 </html>

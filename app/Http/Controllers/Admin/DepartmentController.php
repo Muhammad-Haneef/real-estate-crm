@@ -4,8 +4,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 
 use App\Models\Admin\Department;
-use App\Http\Requests\StoreDepartmentRequest;
-use App\Http\Requests\UpdateDepartmentRequest;
+use App\Http\Requests\Admin\StoreDepartmentRequest;
+use App\Http\Requests\Admin\UpdateDepartmentRequest;
 
 //use Illuminate\Support\Facades\DB;
 
@@ -22,10 +22,9 @@ class DepartmentController extends Controller
 
     public function index()
     {
-        //
-        //$d = new Department();        
-        //$dpts = $d->with('designations')->get();
-        //echo "<pre>"; print_r($dpts); echo "<pre>";
+        $m = new Department();        
+        $records = $m->with('designations')->get();
+        return view('admin/departments/list', ['records' => $records]);
 
     }
 
@@ -36,7 +35,7 @@ class DepartmentController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin/departments/add');
     }
 
     /**
@@ -47,7 +46,10 @@ class DepartmentController extends Controller
      */
     public function store(StoreDepartmentRequest $request)
     {
-        //
+        echo $request->title;
+        echo $request->sort_by;
+        echo $request->is_active;
+        //pre($request, 1);
     }
 
     /**

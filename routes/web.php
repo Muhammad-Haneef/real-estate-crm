@@ -38,6 +38,10 @@ Route::get('/admin/dashboard', function () {
 
 
 Route::get('/admin/departments', [DepartmentController::class, 'index']);
+Route::get('/admin/departments/add', [DepartmentController::class, 'create']);
+Route::post('/admin/departments/add', [DepartmentController::class, 'store']);
+
+
 Route::get('/admin/designations', [DesignationController::class, 'index']);
 
 
