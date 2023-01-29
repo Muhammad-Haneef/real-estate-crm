@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 
-use App\Models\Department;
+use App\Models\Admin\Department;
 use App\Http\Requests\StoreDepartmentRequest;
 use App\Http\Requests\UpdateDepartmentRequest;
+
+//use Illuminate\Support\Facades\DB;
 
 class DepartmentController extends Controller
 {
@@ -14,9 +16,17 @@ class DepartmentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+
+
+
     public function index()
     {
         //
+        //$d = new Department();        
+        //$dpts = $d->with('designations')->get();
+        //echo "<pre>"; print_r($dpts); echo "<pre>";
+
     }
 
     /**

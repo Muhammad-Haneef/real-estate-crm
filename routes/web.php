@@ -2,6 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\Admin\DepartmentController;
+use App\Http\Controllers\Admin\DesignationController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -33,8 +37,8 @@ Route::get('/admin/dashboard', function () {
 
 
 
-
-
+Route::get('/admin/departments', [DepartmentController::class, 'index']);
+Route::get('/admin/designations', [DesignationController::class, 'index']);
 
 
 

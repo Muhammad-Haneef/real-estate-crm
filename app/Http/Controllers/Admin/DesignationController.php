@@ -3,9 +3,11 @@
 namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 
-use App\Models\Designation;
+use App\Models\Admin\Designation;
 use App\Http\Requests\StoreDesignationRequest;
 use App\Http\Requests\UpdateDesignationRequest;
+
+
 
 class DesignationController extends Controller
 {
@@ -16,7 +18,11 @@ class DesignationController extends Controller
      */
     public function index()
     {
-        //
+
+        //$d = new Designation();        
+        //$dpts = $d->with('department')->get();
+        //echo "<pre>"; print_r($dpts); echo "<pre>";
+
     }
 
     /**

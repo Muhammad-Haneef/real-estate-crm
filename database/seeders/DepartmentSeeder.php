@@ -19,8 +19,6 @@ class DepartmentSeeder extends Seeder
         DB::table('departments')->insert(
             [
                 ['title' => 'HR'],
-                ['title' => 'Administration'],
-                ['title' => 'Digital Studio'],
                 ['title' => 'Finanace'],
                 ['title' => 'Tech'],
                 ['title' => 'IT'],

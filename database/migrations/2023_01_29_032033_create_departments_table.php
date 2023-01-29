@@ -15,8 +15,14 @@ return new class extends Migration
     {
         Schema::create('departments', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
+
+            $table->char('title', 255);
+
             $table->integer('sort_by')->default(0);
+            $table->boolean('is_active')->default(1);
+            $table->boolean('is_deleted')->default(0);
+            $table->integer('add_by')->default(0);
+            $table->integer('edit_by')->default(0);
             $table->timestamps();
         });
     }
