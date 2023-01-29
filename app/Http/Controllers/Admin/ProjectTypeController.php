@@ -1,6 +1,7 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
+use App\Http\Controllers\Controller;
 
 use App\Models\Admin\ProjectType;
 use App\Http\Requests\Admin\StoreProjectTypeRequest;

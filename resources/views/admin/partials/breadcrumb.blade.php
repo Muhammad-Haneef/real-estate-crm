@@ -8,7 +8,7 @@
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">
                             <svg class="stroke-icon">
-                                <use href="<?= ADMIN_ASSETS ?>svg/icon-sprite.svg#stroke-home"></use>
+                                <use href="<?= ADMIN_IMG ?>svg/icon-sprite.svg#stroke-home"></use>
                             </svg></a></li>
                     <li class="breadcrumb-item">Dashboard</li>
                     <li class="breadcrumb-item active">Default </li>
